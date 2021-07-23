@@ -22,11 +22,11 @@ INSERT INTO productos (id, categorias_id, nombre, descripcion,  precio, stock ) 
 INSERT INTO productos (id, categorias_id, nombre, descripcion,  precio, stock ) VALUES (16,1,'Amd','Procesador AMD ',223.00,12);
 
 
--- MOSTRAR INFO DE TABLAS
+-- MOSTRAR REGISTROS DE TABLAS
 SELECT * FROM categorias;
 SELECT * FROM productos;
 
--- ELIMIANR UN REGISTRO
+-- ELIMINAR UN REGISTRO
 INSERT INTO productos 
 	(id, categorias_id, nombre, descripcion, precio, stock )  
     VALUES  (3,1,'NVIDIA','Procesador GTX 1080',2500,2) ;
