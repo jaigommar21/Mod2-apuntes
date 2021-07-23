@@ -1,6 +1,15 @@
--- SELECCIONAR BASE DE DATOS
+
+-- MOSTRAR ESQUEMAS
+SHOW DATABASES;
+
+-- SELECCIONAR EL ESQUEMA
 USE inverntariodb;
 
+-- MOSTAR TABLAS DE UN ESQUEMA
+SHOW TABLES;
+
+-- MUESTRA INFO DE LA TABLA
+DESC categorias; 
 
 -- INSERTA REGISTROS
 INSERT INTO  categorias  (ID,  NOMBRE,  DESCRIPCION,  ORDEN  )  VALUES  (1,'Procesadores', 'Categoria de procesadores',1) ;
@@ -18,4 +27,7 @@ INSERT INTO productos (id, categorias_id, nombre, descripcion,  precio, stock ) 
 SELECT * FROM categorias;
 
 SELECT * FROM productos;
+
+-- MUESTRA INFO DE LA TABLA
+DESC productos;
 
