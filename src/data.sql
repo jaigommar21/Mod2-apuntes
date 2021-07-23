@@ -26,7 +26,7 @@ INSERT INTO productos (id, categorias_id, nombre, descripcion,  precio, stock ) 
 SELECT * FROM categorias;
 SELECT * FROM productos;
 
--- ELIMINAR UN REGISTRO
+-- ELIMINAR UN REGISTRO 
 INSERT INTO productos 
 	(id, categorias_id, nombre, descripcion, precio, stock )  
     VALUES  (3,1,'NVIDIA','Procesador GTX 1080',2500,2) ;
