@@ -32,3 +32,12 @@ INSERT INTO productos
     VALUES  (3,1,'NVIDIA','Procesador GTX 1080',2500,2) ;
     
 DELETE FROM productos WHERE id = 3;
+
+-- ACTUALIZAR CAMPOS DE UN REGISTRO
+INSERT INTO productos 
+	(id, categorias_id, nombre, descripcion, precio, stock )  
+    VALUES  (3,1,'NVIDIA','Procesador GTX 1080',2500,2) ;
+SELECT * FROM productos WHERE id = 3;
+
+UPDATE productos SET descripcion = 'Procesador GTX 980', stock = 4 WHERE id = 3; 
+SELECT * FROM productos WHERE id = 3;
